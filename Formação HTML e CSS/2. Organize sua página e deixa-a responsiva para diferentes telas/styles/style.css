@@ -46,10 +46,11 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 82px;
 }
 
 .apresentacao__conteudo {
-	width: 615px;
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
@@ -85,12 +86,12 @@ body {
 	font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
 	display: flex;
 	justify-content: center;
 	gap: 16px;
 	color: var(--cor-texto);
-	width: 378px;
+	width: 50%;
 	text-align: center;
 	border: 2px solid var(--cor-detalhe);
 	border-radius: 8px;
@@ -105,6 +106,10 @@ body {
 	background-color: var(--cor-hover);
 }
 
+.apresentacao__imagem {
+	width: 50%;
+}
+
 .rodape {
 	padding: 24px;
 	background-color: var(--cor-detalhe);
@@ -112,4 +117,23 @@ body {
 	font-family: var(--fonte-montserrat);
 	font-size: 1.5rem;
 	font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+	.cabecalho {
+		padding: 10%;
+	}
+
+	.cabecalho__menu {
+		justify-content: center;
+	}
+
+	.apresentacao {
+		flex-direction: column-reverse;
+		padding: 5%;
+	}
+
+	.apresentacao__conteudo {
+		width: auto;
+	}
 }
