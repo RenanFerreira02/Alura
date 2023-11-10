@@ -1,0 +1,23 @@
+:root {
+	--branco-principal: #ffffff;
+	--cinza-secunario: #c0c0c0;
+	--botao-azul: #167bf7;
+	--backgound-color: #00030c;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: var(--backgound-color);
+	color: var(--branco-principal);
+}
+
+.principal {
+	height: 100vh;
+	background-image: url('assets/Background.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
