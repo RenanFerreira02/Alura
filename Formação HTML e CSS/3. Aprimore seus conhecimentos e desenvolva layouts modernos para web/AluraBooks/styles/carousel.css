@@ -75,3 +75,61 @@
 .rank__image {
 	margin: 0.5rem 0;
 }
+
+@media screen and (min-width: 1024px) {
+	.carousel__title {
+		font-size: 26px;
+	}
+
+	.swiper-pagination {
+		margin: 2rem 0 3rem 0;
+	}
+
+	.swiper {
+		width: 60%;
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		display: block;
+		top: 60%;
+	}
+
+	.card {
+		width: 40%;
+		margin: 2rem auto;
+	}
+}
+
+@media screen and (min-width: 1728px) {
+	.carousel__container {
+		display: flex;
+		align-items: center;
+		margin: 0 20vw 3rem 20vh;
+	}
+
+	.swiper {
+		width: 50%;
+	}
+
+	.swiper-pagination {
+		margin: 1rem 0;
+	}
+
+	.card {
+		width: 60%;
+		margin-left: 3rem;
+	}
+
+	.description {
+		margin-right: 1rem;
+	}
+
+	.description__title {
+		font-size: 32px;
+	}
+
+	.description__text {
+		font-size: 16px;
+	}
+}

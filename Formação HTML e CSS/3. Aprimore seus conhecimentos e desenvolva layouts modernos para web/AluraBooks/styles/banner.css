@@ -33,3 +33,30 @@
 	background: url('../assets/banner/Pesquisa.svg') no-repeat;
 	background-position: 0.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+	.banner__title {
+		font-size: 36px;
+	}
+
+	.banner__search {
+		width: 50%;
+	}
+
+	.banner__search::placeholder {
+		background-position: 5.5rem;
+	}
+}
+
+@media screen and (min-width: 1728px) {
+	.banner {
+		padding: 6rem;
+	}
+	.banner__search {
+		width: 35%;
+	}
+
+	.banner__search::placeholder {
+		background-position: 10rem;
+	}
+}
