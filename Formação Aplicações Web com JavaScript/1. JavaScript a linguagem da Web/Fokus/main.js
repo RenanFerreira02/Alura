@@ -12,6 +12,15 @@ function alterarContexto(contexto) {
 	html.setAttribute('data-contexto', contexto);
 
 	banner.setAttribute('src', `/imagens/${contexto}.png`);
+
+	switch (contexto) {
+		case 'foco':
+			titulo.innerHTML = `Oimize sua produtividade, mergulhe no que importa`;
+			break;
+
+		default:
+			break;
+	}
 }
 
 focoBt.addEventListener('click', () => {
